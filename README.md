@@ -14,9 +14,11 @@ At the foundation of openSi is a growing team, currently outlining the software 
 
 openSi aims to integrate a variety of new and existing EDA (Electronic Design Automation) tools. Here are some initial components under consideration:
 
+An overview of available VLSI EDA tools can be found here: [Overview EDA tools](https://glenzac.wordpress.com/2021/06/21/list-of-open-source-vlsi-eda-tools/)
+
 ### PDK Tools
 
-- **[open_PDK](https://github.com/RTimothyEdwards/open_pdks)**: Manages PDKs, with SkyWater and GlobalFoundries PDKs currently open source. We hope that in the future the range of available PDKs, even at more modern nodes will increase.
+- **[open_PDK](https://github.com/RTimothyEdwards/open_pdks)**: Manages PDKs, with SkyWater and GlobalFoundries PDKs currently open source. We aspire to expand the range of available PDKs.
 - **[kiCAD_PDK](https://github.com/lethalbit/kicad-pdk-libs)**: A KiCad-based PDK management tool, enhancing library support for various design kits.
 
 ### Schematic Design
