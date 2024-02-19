@@ -16,7 +16,7 @@ openSi aims to integrate a variety of new and existing EDA (Electronic Design Au
 
 ### PDK Tools
 
-- **[open_PDK](https://github.com/RTimothyEdwards/open_pdks)**: Manages PDKs, with SkyWater and GlobalFoundries PDKs currently open source. We aspire to expand the range of available PDKs.
+- **[open_PDK](https://github.com/RTimothyEdwards/open_pdks)**: Manages PDKs, with SkyWater and GlobalFoundries PDKs currently open source. We hope that in the future the range of available PDKs, even at more modern nodes will increase.
 - **[kiCAD_PDK](https://github.com/lethalbit/kicad-pdk-libs)**: A KiCad-based PDK management tool, enhancing library support for various design kits.
 
 ### Schematic Design
