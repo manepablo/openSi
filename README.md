@@ -25,7 +25,7 @@ openSi will integrate various new and existing EDA (Electronic Design Automation
 
 ### Simulator GUI
 
-- The GUI for simulation could integrate aspects of the LTspice interface, known for its user-friendly design, while incorporating the necessary features for analog design such as corner analysis, Monte Carlo simulations, and sweeps.
+- The GUI for simulation could integrate aspects of the LTspice interface, known for its user-friendly design, while incorporating the necessary features for analog design such as corner analysis, Monte Carlo simulations, and sweeps. Also existing tools of KiCAD gui could be used for this purpose.
 
 ### SPICE Simulation
 
@@ -34,3 +34,9 @@ openSi will integrate various new and existing EDA (Electronic Design Automation
 ### Layout
 
 - **Magic**: A starting point for layout design, albeit dated. We propose forking and modernizing Magic. Incorporating elements from KiCad's PCB layout tool could be considered, though layout design will not be our initial focus.
+
+
+## Required Steps (preliminary)
+1) manage the open_pdk tools to be compiled autoamatically and installed and be accesibla via a forked version of kicad or a new tool.
+2) modify kicad by removing unnecesarry feature for PCB design and adding new features for VLSI design. Modify the GUI to be more user friendly for VLSI design.
+3) modifiyng the kiCAD gui for simulation by adding more features for analog design, while still supoorting ngspice.
