@@ -824,7 +824,9 @@ find_package( Fontconfig REQUIRED )
 include( MinGWResourceCompiler )
 
 # Find ngspice library, required for integrated circuit simulator
-find_package( ngspice REQUIRED )
+#find_package( ngspice REQUIRED )
+#find_package(ngspice REQUIRED PATHS /usr/local/bin/ngspice)
+
 
 # Find OpenCascade, required for STEP plugin and tools
 find_package(OCC)

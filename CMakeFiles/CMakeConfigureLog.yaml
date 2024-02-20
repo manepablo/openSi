@@ -1,0 +1,2005 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:42 (project)"
+    message: |
+      The system is: Linux - 6.2.0-37-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:42 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/manea/Desktop/openSi/CMakeFiles/3.28.1/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:42 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/manea/Desktop/openSi/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:42 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-l4Z5AN"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-l4Z5AN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-l4Z5AN'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fe59c/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-l4Z5AN'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fe59c.dir/build.make CMakeFiles/cmTC_fe59c.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-l4Z5AN'
+        Building C object CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-13ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-13ubuntu1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe59c.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fe59c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccCiX5JP.s
+        GNU C17 (Ubuntu 13.2.0-13ubuntu1) version 13.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 10207506f6e5d42fdf43b6b77aa19c2a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe59c.dir/'
+         as -v --64 -o CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o /tmp/ccCiX5JP.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_fe59c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe59c.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o -o cmTC_fe59c 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-13ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-13ubuntu1) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe59c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fe59c.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5Or5kC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fe59c /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe59c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fe59c.'
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-l4Z5AN'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-l4Z5AN'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:42 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:42 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-l4Z5AN']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fe59c/fast]
+        ignore line: [gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-l4Z5AN']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_fe59c.dir/build.make CMakeFiles/cmTC_fe59c.dir/build]
+        ignore line: [gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-l4Z5AN']
+        ignore line: [Building C object CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-13ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-13ubuntu1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe59c.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fe59c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccCiX5JP.s]
+        ignore line: [GNU C17 (Ubuntu 13.2.0-13ubuntu1) version 13.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 10207506f6e5d42fdf43b6b77aa19c2a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe59c.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o /tmp/ccCiX5JP.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_fe59c]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe59c.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o -o cmTC_fe59c ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-13ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-13ubuntu1) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe59c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fe59c.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5Or5kC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fe59c /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc5Or5kC.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_fe59c] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_fe59c.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:42 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-cYf6SP"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-cYf6SP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-cYf6SP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b3850/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-cYf6SP'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b3850.dir/build.make CMakeFiles/cmTC_b3850.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-cYf6SP'
+        Building CXX object CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-13ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-13ubuntu1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b3850.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b3850.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLEGrNE.s
+        GNU C++17 (Ubuntu 13.2.0-13ubuntu1) version 13.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/x86_64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: a1b76d5dc44e818f1307ac7a9d400396
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b3850.dir/'
+         as -v --64 -o CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLEGrNE.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_b3850
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3850.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b3850 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-13ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-13ubuntu1) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b3850' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b3850.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBDsB7O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b3850 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b3850' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b3850.'
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-cYf6SP'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-cYf6SP'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:42 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/x86_64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/13] ==> [/usr/include/x86_64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:42 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-cYf6SP']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b3850/fast]
+        ignore line: [gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-cYf6SP']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_b3850.dir/build.make CMakeFiles/cmTC_b3850.dir/build]
+        ignore line: [gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-cYf6SP']
+        ignore line: [Building CXX object CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-13ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-13ubuntu1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b3850.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b3850.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLEGrNE.s]
+        ignore line: [GNU C++17 (Ubuntu 13.2.0-13ubuntu1) version 13.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: a1b76d5dc44e818f1307ac7a9d400396]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b3850.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLEGrNE.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_b3850]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3850.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b3850 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-13ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-UAUe7g/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-13ubuntu1) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b3850' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b3850.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBDsB7O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b3850 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccBDsB7O.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b3850] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_b3850.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake/PerformFeatureChecks.cmake:51 (check_include_file)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for malloc.h"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FeKFVC"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FeKFVC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FeKFVC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a4749/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FeKFVC'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a4749.dir/build.make CMakeFiles/cmTC_a4749.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FeKFVC'
+        Building C object CMakeFiles/cmTC_a4749.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_a4749.dir/CheckIncludeFile.c.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FeKFVC/CheckIncludeFile.c
+        Linking C executable cmTC_a4749
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4749.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_a4749.dir/CheckIncludeFile.c.o -o cmTC_a4749 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FeKFVC'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FeKFVC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake/PerformFeatureChecks.cmake:59 (check_include_file)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for iso646.h"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-EEBA9y"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-EEBA9y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_ISO646_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-EEBA9y'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b1a3b/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-EEBA9y'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b1a3b.dir/build.make CMakeFiles/cmTC_b1a3b.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-EEBA9y'
+        Building C object CMakeFiles/cmTC_b1a3b.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_b1a3b.dir/CheckIncludeFile.c.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-EEBA9y/CheckIncludeFile.c
+        Linking C executable cmTC_b1a3b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1a3b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b1a3b.dir/CheckIncludeFile.c.o -o cmTC_b1a3b 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-EEBA9y'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-EEBA9y'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake/PerformFeatureChecks.cmake:67 (check_include_file)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-gFEAUc"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-gFEAUc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-gFEAUc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8c0de/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-gFEAUc'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8c0de.dir/build.make CMakeFiles/cmTC_8c0de.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-gFEAUc'
+        Building C object CMakeFiles/cmTC_8c0de.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_8c0de.dir/CheckIncludeFile.c.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-gFEAUc/CheckIncludeFile.c
+        Linking C executable cmTC_8c0de
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c0de.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_8c0de.dir/CheckIncludeFile.c.o -o cmTC_8c0de 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-gFEAUc'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-gFEAUc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/PerformFeatureChecks.cmake:75 (check_symbol_exists)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for strcasecmp"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-VGhsQl"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-VGhsQl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRCASECMP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-VGhsQl'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e4633/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-VGhsQl'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e4633.dir/build.make CMakeFiles/cmTC_e4633.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-VGhsQl'
+        Building C object CMakeFiles/cmTC_e4633.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_e4633.dir/CheckSymbolExists.c.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-VGhsQl/CheckSymbolExists.c
+        Linking C executable cmTC_e4633
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4633.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_e4633.dir/CheckSymbolExists.c.o -o cmTC_e4633 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-VGhsQl'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-VGhsQl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/PerformFeatureChecks.cmake:77 (check_symbol_exists)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for strncasecmp"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-IQSqAa"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-IQSqAa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRNCASECMP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-IQSqAa'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_99fe3/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-IQSqAa'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_99fe3.dir/build.make CMakeFiles/cmTC_99fe3.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-IQSqAa'
+        Building C object CMakeFiles/cmTC_99fe3.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_99fe3.dir/CheckSymbolExists.c.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-IQSqAa/CheckSymbolExists.c
+        Linking C executable cmTC_99fe3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99fe3.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_99fe3.dir/CheckSymbolExists.c.o -o cmTC_99fe3 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-IQSqAa'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-IQSqAa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/PerformFeatureChecks.cmake:79 (check_symbol_exists)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for strtok_r"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-I0fDv6"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-I0fDv6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRTOKR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-I0fDv6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d1a8e/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-I0fDv6'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d1a8e.dir/build.make CMakeFiles/cmTC_d1a8e.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-I0fDv6'
+        Building C object CMakeFiles/cmTC_d1a8e.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_d1a8e.dir/CheckSymbolExists.c.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-I0fDv6/CheckSymbolExists.c
+        Linking C executable cmTC_d1a8e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1a8e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d1a8e.dir/CheckSymbolExists.c.o -o cmTC_d1a8e 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-I0fDv6'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-I0fDv6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/PerformFeatureChecks.cmake:80 (check_symbol_exists)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for strtok_s"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-4bt1xf"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-4bt1xf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRTOKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-4bt1xf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c95fa/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-4bt1xf'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c95fa.dir/build.make CMakeFiles/cmTC_c95fa.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-4bt1xf'
+        Building C object CMakeFiles/cmTC_c95fa.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_c95fa.dir/CheckSymbolExists.c.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-4bt1xf/CheckSymbolExists.c
+        /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-4bt1xf/CheckSymbolExists.c: In function ‘main’:
+        /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-4bt1xf/CheckSymbolExists.c:8:19: error: ‘strtok_s’ undeclared (first use in this function); did you mean ‘strtok_r’?
+            8 |   return ((int*)(&strtok_s))[argc];
+              |                   ^~~~~~~~
+              |                   strtok_r
+        /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-4bt1xf/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+        gmake[2]: *** [CMakeFiles/cmTC_c95fa.dir/build.make:78: CMakeFiles/cmTC_c95fa.dir/CheckSymbolExists.c.o] Error 1
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-4bt1xf'
+        gmake[1]: *** [Makefile:127: cmTC_c95fa/fast] Error 2
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-4bt1xf'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/PerformFeatureChecks.cmake:86 (check_symbol_exists)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for malloc"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-U5LwXn"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-U5LwXn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "MALLOC_IN_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-U5LwXn'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_14d51/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-U5LwXn'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_14d51.dir/build.make CMakeFiles/cmTC_14d51.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-U5LwXn'
+        Building C object CMakeFiles/cmTC_14d51.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_14d51.dir/CheckSymbolExists.c.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-U5LwXn/CheckSymbolExists.c
+        Linking C executable cmTC_14d51
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14d51.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_14d51.dir/CheckSymbolExists.c.o -o cmTC_14d51 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-U5LwXn'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-U5LwXn'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake/PerformFeatureChecks.cmake:89 (check_include_file)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for math.h"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-57ExbS"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-57ExbS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_MATH_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-57ExbS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9aab5/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-57ExbS'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9aab5.dir/build.make CMakeFiles/cmTC_9aab5.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-57ExbS'
+        Building C object CMakeFiles/cmTC_9aab5.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_9aab5.dir/CheckIncludeFile.c.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-57ExbS/CheckIncludeFile.c
+        Linking C executable cmTC_9aab5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9aab5.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9aab5.dir/CheckIncludeFile.c.o -o cmTC_9aab5 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-57ExbS'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-57ExbS'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "cmake/PerformFeatureChecks.cmake:92 (check_include_file_cxx)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for C++ include cmath"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wbbDH3"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wbbDH3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_CXX_CMATH"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wbbDH3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_76268/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wbbDH3'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_76268.dir/build.make CMakeFiles/cmTC_76268.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wbbDH3'
+        Building CXX object CMakeFiles/cmTC_76268.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -std=c++17 -fPIE -o CMakeFiles/cmTC_76268.dir/CheckIncludeFile.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wbbDH3/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_76268
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76268.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_76268.dir/CheckIncludeFile.cxx.o -o cmTC_76268 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wbbDH3'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wbbDH3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/PerformFeatureChecks.cmake:93 (check_cxx_symbol_exists)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for asinh"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-zORZe4"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-zORZe4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_CMATH_ASINH"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-zORZe4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f4ab2/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-zORZe4'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f4ab2.dir/build.make CMakeFiles/cmTC_f4ab2.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-zORZe4'
+        Building CXX object CMakeFiles/cmTC_f4ab2.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++17 -fPIE -o CMakeFiles/cmTC_f4ab2.dir/CheckSymbolExists.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-zORZe4/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_f4ab2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4ab2.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_f4ab2.dir/CheckSymbolExists.cxx.o -o cmTC_f4ab2 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-zORZe4'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-zORZe4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/PerformFeatureChecks.cmake:94 (check_cxx_symbol_exists)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for acosh"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-WckoQM"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-WckoQM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_CMATH_ACOSH"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-WckoQM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f4f1d/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-WckoQM'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f4f1d.dir/build.make CMakeFiles/cmTC_f4f1d.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-WckoQM'
+        Building CXX object CMakeFiles/cmTC_f4f1d.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++17 -fPIE -o CMakeFiles/cmTC_f4f1d.dir/CheckSymbolExists.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-WckoQM/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_f4f1d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4f1d.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_f4f1d.dir/CheckSymbolExists.cxx.o -o cmTC_f4f1d 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-WckoQM'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-WckoQM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/PerformFeatureChecks.cmake:95 (check_cxx_symbol_exists)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for atanh"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Vs1a5T"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Vs1a5T"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_CMATH_ATANH"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Vs1a5T'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_58d90/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Vs1a5T'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_58d90.dir/build.make CMakeFiles/cmTC_58d90.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Vs1a5T'
+        Building CXX object CMakeFiles/cmTC_58d90.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=c++17 -fPIE -o CMakeFiles/cmTC_58d90.dir/CheckSymbolExists.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Vs1a5T/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_58d90
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58d90.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_58d90.dir/CheckSymbolExists.cxx.o -o cmTC_58d90 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Vs1a5T'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Vs1a5T'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/PerformFeatureChecks.cmake:99 (check_cxx_source_compiles)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Performing Test HAVE_CMATH_ISINF"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Axzqlh"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Axzqlh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_CMATH_ISINF"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Axzqlh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c5cba/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Axzqlh'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c5cba.dir/build.make CMakeFiles/cmTC_c5cba.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Axzqlh'
+        Building CXX object CMakeFiles/cmTC_c5cba.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CMATH_ISINF  -std=c++17 -fPIE -o CMakeFiles/cmTC_c5cba.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Axzqlh/src.cxx
+        Linking CXX executable cmTC_c5cba
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5cba.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_c5cba.dir/src.cxx.o -o cmTC_c5cba 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Axzqlh'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Axzqlh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "cmake/PerformFeatureChecks.cmake:102 (check_library_exists)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for clock_gettime in rt"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c7OyBu"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c7OyBu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_CLOCK_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c7OyBu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b3680/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c7OyBu'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b3680.dir/build.make CMakeFiles/cmTC_b3680.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c7OyBu'
+        Building C object CMakeFiles/cmTC_b3680.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE -o CMakeFiles/cmTC_b3680.dir/CheckFunctionExists.c.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c7OyBu/CheckFunctionExists.c
+        Linking C executable cmTC_b3680
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3680.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_b3680.dir/CheckFunctionExists.c.o -o cmTC_b3680  -lrt 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c7OyBu'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c7OyBu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/PerformFeatureChecks.cmake:105 (check_symbol_exists)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-kWgqy2"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-kWgqy2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY_FUNC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-kWgqy2'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_25b24/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-kWgqy2'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_25b24.dir/build.make CMakeFiles/cmTC_25b24.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-kWgqy2'
+        Building C object CMakeFiles/cmTC_25b24.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_25b24.dir/CheckSymbolExists.c.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-kWgqy2/CheckSymbolExists.c
+        Linking C executable cmTC_25b24
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25b24.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_25b24.dir/CheckSymbolExists.c.o -o cmTC_25b24 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-kWgqy2'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-kWgqy2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/PerformFeatureChecks.cmake:109 (check_symbol_exists)"
+      - "CMakeLists.txt:307 (perform_feature_checks)"
+    checks:
+      - "Looking for getc_unlocked"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c0FHZO"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c0FHZO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_FGETC_NOLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c0FHZO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_10550/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c0FHZO'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_10550.dir/build.make CMakeFiles/cmTC_10550.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c0FHZO'
+        Building C object CMakeFiles/cmTC_10550.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_10550.dir/CheckSymbolExists.c.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c0FHZO/CheckSymbolExists.c
+        Linking C executable cmTC_10550
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10550.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_10550.dir/CheckSymbolExists.c.o -o cmTC_10550 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c0FHZO'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-c0FHZO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:39 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WSUGGEST_OVERRIDE"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-S6Jkhy"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-S6Jkhy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WSUGGEST_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-S6Jkhy'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_17291/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-S6Jkhy'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_17291.dir/build.make CMakeFiles/cmTC_17291.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-S6Jkhy'
+        Building CXX object CMakeFiles/cmTC_17291.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WSUGGEST_OVERRIDE  -std=c++17 -fPIE   -Wsuggest-override -o CMakeFiles/cmTC_17291.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-S6Jkhy/src.cxx
+        Linking CXX executable cmTC_17291
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17291.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_17291.dir/src.cxx.o -o cmTC_17291 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-S6Jkhy'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-S6Jkhy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:48 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WINCONSISTENT_MISSING_OVERRIDE"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FDbo7O"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FDbo7O"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WINCONSISTENT_MISSING_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FDbo7O'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6341d/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FDbo7O'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6341d.dir/build.make CMakeFiles/cmTC_6341d.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FDbo7O'
+        Building CXX object CMakeFiles/cmTC_6341d.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WINCONSISTENT_MISSING_OVERRIDE  -std=c++17 -fPIE   -Winconsistent-missing-override -o CMakeFiles/cmTC_6341d.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FDbo7O/src.cxx
+        c++: error: unrecognized command-line option '-Winconsistent-missing-override'
+        gmake[2]: *** [CMakeFiles/cmTC_6341d.dir/build.make:78: CMakeFiles/cmTC_6341d.dir/src.cxx.o] Error 1
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FDbo7O'
+        gmake[1]: *** [Makefile:127: cmTC_6341d/fast] Error 2
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-FDbo7O'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:61 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WDUPLICATED_BRANCHES"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-hJZQef"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-hJZQef"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WDUPLICATED_BRANCHES"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-hJZQef'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_22ae3/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-hJZQef'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_22ae3.dir/build.make CMakeFiles/cmTC_22ae3.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-hJZQef'
+        Building CXX object CMakeFiles/cmTC_22ae3.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WDUPLICATED_BRANCHES  -std=c++17 -fPIE   -Wduplicated-branches -o CMakeFiles/cmTC_22ae3.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-hJZQef/src.cxx
+        Linking CXX executable cmTC_22ae3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22ae3.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_22ae3.dir/src.cxx.o -o cmTC_22ae3 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-hJZQef'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-hJZQef'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:70 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WDUPLICATED_COND"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-6t93wM"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-6t93wM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WDUPLICATED_COND"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-6t93wM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7756e/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-6t93wM'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7756e.dir/build.make CMakeFiles/cmTC_7756e.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-6t93wM'
+        Building CXX object CMakeFiles/cmTC_7756e.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WDUPLICATED_COND  -std=c++17 -fPIE   -Wduplicated-cond -o CMakeFiles/cmTC_7756e.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-6t93wM/src.cxx
+        Linking CXX executable cmTC_7756e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7756e.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_7756e.dir/src.cxx.o -o cmTC_7756e 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-6t93wM'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-6t93wM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:79 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WVLA"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-26FyWv"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-26FyWv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WVLA"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-26FyWv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_16c07/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-26FyWv'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_16c07.dir/build.make CMakeFiles/cmTC_16c07.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-26FyWv'
+        Building CXX object CMakeFiles/cmTC_16c07.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WVLA  -std=c++17 -fPIE   -Wvla -o CMakeFiles/cmTC_16c07.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-26FyWv/src.cxx
+        Linking CXX executable cmTC_16c07
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16c07.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_16c07.dir/src.cxx.o -o cmTC_16c07 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-26FyWv'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-26FyWv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:88 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WIMPLICIT_FALLTHROUGH"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wIjt0U"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wIjt0U"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WIMPLICIT_FALLTHROUGH"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wIjt0U'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_71dc3/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wIjt0U'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_71dc3.dir/build.make CMakeFiles/cmTC_71dc3.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wIjt0U'
+        Building CXX object CMakeFiles/cmTC_71dc3.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WIMPLICIT_FALLTHROUGH  -std=c++17 -fPIE   -Wimplicit-fallthrough -o CMakeFiles/cmTC_71dc3.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wIjt0U/src.cxx
+        Linking CXX executable cmTC_71dc3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71dc3.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_71dc3.dir/src.cxx.o -o cmTC_71dc3 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wIjt0U'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-wIjt0U'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:103 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WRETURN_TYPE"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-f6pNh0"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-f6pNh0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WRETURN_TYPE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-f6pNh0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e63be/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-f6pNh0'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e63be.dir/build.make CMakeFiles/cmTC_e63be.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-f6pNh0'
+        Building CXX object CMakeFiles/cmTC_e63be.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WRETURN_TYPE  -std=c++17 -fPIE   -Wreturn-type -o CMakeFiles/cmTC_e63be.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-f6pNh0/src.cxx
+        Linking CXX executable cmTC_e63be
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e63be.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_e63be.dir/src.cxx.o -o cmTC_e63be 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-f6pNh0'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-f6pNh0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:112 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WSHADOW"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-jLvoif"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-jLvoif"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-jLvoif'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e9bf2/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-jLvoif'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e9bf2.dir/build.make CMakeFiles/cmTC_e9bf2.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-jLvoif'
+        Building CXX object CMakeFiles/cmTC_e9bf2.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WSHADOW  -std=c++17 -fPIE   -Wshadow -o CMakeFiles/cmTC_e9bf2.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-jLvoif/src.cxx
+        Linking CXX executable cmTC_e9bf2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9bf2.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_e9bf2.dir/src.cxx.o -o cmTC_e9bf2 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-jLvoif'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-jLvoif'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:121 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WSIGN"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-icGmS5"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-icGmS5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WSIGN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-icGmS5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_72280/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-icGmS5'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_72280.dir/build.make CMakeFiles/cmTC_72280.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-icGmS5'
+        Building CXX object CMakeFiles/cmTC_72280.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WSIGN  -std=c++17 -fPIE   -Wsign-compare -o CMakeFiles/cmTC_72280.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-icGmS5/src.cxx
+        Linking CXX executable cmTC_72280
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72280.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_72280.dir/src.cxx.o -o cmTC_72280 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-icGmS5'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-icGmS5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:130 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WMISSING_INIT"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-G9J8Dd"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-G9J8Dd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WMISSING_INIT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-G9J8Dd'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1f818/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-G9J8Dd'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1f818.dir/build.make CMakeFiles/cmTC_1f818.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-G9J8Dd'
+        Building CXX object CMakeFiles/cmTC_1f818.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WMISSING_INIT  -std=c++17 -fPIE   -Wmissing-field-initializers -o CMakeFiles/cmTC_1f818.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-G9J8Dd/src.cxx
+        Linking CXX executable cmTC_1f818
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f818.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_1f818.dir/src.cxx.o -o cmTC_1f818 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-G9J8Dd'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-G9J8Dd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:139 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WEMPTY_BODY"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Pgx8TQ"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Pgx8TQ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WEMPTY_BODY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Pgx8TQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fa348/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Pgx8TQ'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fa348.dir/build.make CMakeFiles/cmTC_fa348.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Pgx8TQ'
+        Building CXX object CMakeFiles/cmTC_fa348.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WEMPTY_BODY  -std=c++17 -fPIE   -Wempty-body -o CMakeFiles/cmTC_fa348.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Pgx8TQ/src.cxx
+        Linking CXX executable cmTC_fa348
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa348.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_fa348.dir/src.cxx.o -o cmTC_fa348 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Pgx8TQ'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-Pgx8TQ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:148 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WREORDER"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-YC7nZQ"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-YC7nZQ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WREORDER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-YC7nZQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ffa18/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-YC7nZQ'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ffa18.dir/build.make CMakeFiles/cmTC_ffa18.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-YC7nZQ'
+        Building CXX object CMakeFiles/cmTC_ffa18.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WREORDER  -std=c++17 -fPIE   -Wreorder -o CMakeFiles/cmTC_ffa18.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-YC7nZQ/src.cxx
+        Linking CXX executable cmTC_ffa18
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffa18.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_ffa18.dir/src.cxx.o -o cmTC_ffa18 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-YC7nZQ'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-YC7nZQ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:157 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WMISMATCHED_TAGS"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-si4Oy6"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-si4Oy6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WMISMATCHED_TAGS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-si4Oy6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d58d3/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-si4Oy6'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d58d3.dir/build.make CMakeFiles/cmTC_d58d3.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-si4Oy6'
+        Building CXX object CMakeFiles/cmTC_d58d3.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WMISMATCHED_TAGS  -std=c++17 -fPIE   -Wmismatched-tags -o CMakeFiles/cmTC_d58d3.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-si4Oy6/src.cxx
+        Linking CXX executable cmTC_d58d3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d58d3.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_d58d3.dir/src.cxx.o -o cmTC_d58d3 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-si4Oy6'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-si4Oy6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:165 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WPESSIMIZING_MOVE"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-TDSCCJ"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-TDSCCJ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WPESSIMIZING_MOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-TDSCCJ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_efab9/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-TDSCCJ'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_efab9.dir/build.make CMakeFiles/cmTC_efab9.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-TDSCCJ'
+        Building CXX object CMakeFiles/cmTC_efab9.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WPESSIMIZING_MOVE  -std=c++17 -fPIE   -Wpessimizing-move -o CMakeFiles/cmTC_efab9.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-TDSCCJ/src.cxx
+        Linking CXX executable cmTC_efab9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efab9.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_efab9.dir/src.cxx.o -o cmTC_efab9 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-TDSCCJ'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-TDSCCJ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:172 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WREDUNDANT_MOVE"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RVJct5"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RVJct5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WREDUNDANT_MOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RVJct5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ea66c/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RVJct5'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ea66c.dir/build.make CMakeFiles/cmTC_ea66c.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RVJct5'
+        Building CXX object CMakeFiles/cmTC_ea66c.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WREDUNDANT_MOVE  -std=c++17 -fPIE   -Wredundant-move -o CMakeFiles/cmTC_ea66c.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RVJct5/src.cxx
+        Linking CXX executable cmTC_ea66c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea66c.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_ea66c.dir/src.cxx.o -o cmTC_ea66c 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RVJct5'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RVJct5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:180 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WIMPLICIT_FLOAT_CONVERSION"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-eHuED3"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-eHuED3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WIMPLICIT_FLOAT_CONVERSION"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-eHuED3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f5147/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-eHuED3'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f5147.dir/build.make CMakeFiles/cmTC_f5147.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-eHuED3'
+        Building CXX object CMakeFiles/cmTC_f5147.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WIMPLICIT_FLOAT_CONVERSION  -std=c++17 -fPIE   -Wimplicit-int-float-conversion -o CMakeFiles/cmTC_f5147.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-eHuED3/src.cxx
+        c++: error: unrecognized command-line option '-Wimplicit-int-float-conversion'; did you mean '-Wdeprecated-enum-float-conversion'?
+        gmake[2]: *** [CMakeFiles/cmTC_f5147.dir/build.make:78: CMakeFiles/cmTC_f5147.dir/src.cxx.o] Error 1
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-eHuED3'
+        gmake[1]: *** [Makefile:127: cmTC_f5147/fast] Error 2
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-eHuED3'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:188 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WUNUSED_CONST_VARIABLE"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-aSgBkW"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-aSgBkW"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WUNUSED_CONST_VARIABLE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-aSgBkW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aeff8/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-aSgBkW'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_aeff8.dir/build.make CMakeFiles/cmTC_aeff8.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-aSgBkW'
+        Building CXX object CMakeFiles/cmTC_aeff8.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WUNUSED_CONST_VARIABLE  -std=c++17 -fPIE   -Wunused-const-variable -o CMakeFiles/cmTC_aeff8.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-aSgBkW/src.cxx
+        Linking CXX executable cmTC_aeff8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeff8.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_aeff8.dir/src.cxx.o -o cmTC_aeff8 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-aSgBkW'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-aSgBkW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Warnings.cmake:201 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:310 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_WPSABI"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-DlcfT5"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-DlcfT5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wno-attributes"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_WPSABI"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-DlcfT5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a2243/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-DlcfT5'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a2243.dir/build.make CMakeFiles/cmTC_a2243.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-DlcfT5'
+        Building CXX object CMakeFiles/cmTC_a2243.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_WPSABI  -Wno-attributes  -std=c++17 -fPIE   -Wpsabi -o CMakeFiles/cmTC_a2243.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-DlcfT5/src.cxx
+        Linking CXX executable cmTC_a2243
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2243.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-attributes  CMakeFiles/cmTC_a2243.dir/src.cxx.o -o cmTC_a2243 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-DlcfT5'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-DlcfT5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:396 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_TRIVIAL_PATTERN_INIT"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-OiQJ86"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-OiQJ86"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wno-attributes"
+      CMAKE_CXX_FLAGS_DEBUG: "-g3 -ggdb3"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_TRIVIAL_PATTERN_INIT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-OiQJ86'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2b9cb/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-OiQJ86'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2b9cb.dir/build.make CMakeFiles/cmTC_2b9cb.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-OiQJ86'
+        Building CXX object CMakeFiles/cmTC_2b9cb.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_TRIVIAL_PATTERN_INIT  -Wno-attributes  -std=c++17 -fPIE   -ftrivial-auto-var-init=pattern -o CMakeFiles/cmTC_2b9cb.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-OiQJ86/src.cxx
+        Linking CXX executable cmTC_2b9cb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b9cb.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-attributes  CMakeFiles/cmTC_2b9cb.dir/src.cxx.o -o cmTC_2b9cb 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-OiQJ86'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-OiQJ86'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:401 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_TRIVIAL_ZERO_INIT"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RjR2yL"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RjR2yL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wno-attributes"
+      CMAKE_CXX_FLAGS_DEBUG: "-g3 -ggdb3"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_TRIVIAL_ZERO_INIT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RjR2yL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aa758/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RjR2yL'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_aa758.dir/build.make CMakeFiles/cmTC_aa758.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RjR2yL'
+        Building CXX object CMakeFiles/cmTC_aa758.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_TRIVIAL_ZERO_INIT  -Wno-attributes  -std=c++17 -fPIE   -ftrivial-auto-var-init=zero -o CMakeFiles/cmTC_aa758.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RjR2yL/src.cxx
+        Linking CXX executable cmTC_aa758
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa758.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-attributes  CMakeFiles/cmTC_aa758.dir/src.cxx.o -o cmTC_aa758 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RjR2yL'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-RjR2yL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.83.0/boost_thread-config.cmake:118 (find_dependency)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/boost_locale-1.83.0/boost_locale-config.cmake:102 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake:141 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake:262 (boost_find_component)"
+      - "/usr/share/cmake-3.28/Modules/FindBoost.cmake:594 (find_package)"
+      - "CMakeLists.txt:806 (find_package)"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-J6hvGo"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-J6hvGo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g3 -ggdb3"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-J6hvGo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d7d89/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-J6hvGo'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d7d89.dir/build.make CMakeFiles/cmTC_d7d89.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-J6hvGo'
+        Building C object CMakeFiles/cmTC_d7d89.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_d7d89.dir/src.c.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-J6hvGo/src.c
+        Linking C executable cmTC_d7d89
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7d89.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d7d89.dir/src.c.o -o cmTC_d7d89 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-J6hvGo'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-J6hvGo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "thirdparty/pybind11/tools/pybind11Common.cmake:294 (check_cxx_compiler_flag)"
+      - "thirdparty/pybind11/tools/pybind11Common.cmake:336 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "thirdparty/pybind11/tools/pybind11Common.cmake:392 (_pybind11_generate_lto)"
+      - "thirdparty/pybind11/CMakeLists.txt:200 (include)"
+    checks:
+      - "Performing Test HAS_FLTO"
+    directories:
+      source: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-fFVZRj"
+      binary: "/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-fFVZRj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wno-attributes"
+      CMAKE_CXX_FLAGS_DEBUG: "-g3 -ggdb3"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/manea/Desktop/openSi/kicad-master/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAS_FLTO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-fFVZRj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0521a/fast
+        gmake[1]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-fFVZRj'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0521a.dir/build.make CMakeFiles/cmTC_0521a.dir/build
+        gmake[2]: Entering directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-fFVZRj'
+        Building CXX object CMakeFiles/cmTC_0521a.dir/src.cxx.o
+        /usr/bin/c++ -DHAS_FLTO  -Wno-attributes  -std=c++17 -fPIE   -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_0521a.dir/src.cxx.o -c /home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-fFVZRj/src.cxx
+        Linking CXX executable cmTC_0521a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0521a.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-attributes  CMakeFiles/cmTC_0521a.dir/src.cxx.o -o cmTC_0521a  -flto 
+        gmake[2]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-fFVZRj'
+        gmake[1]: Leaving directory '/home/manea/Desktop/openSi/CMakeFiles/CMakeScratch/TryCompile-fFVZRj'
+        
+      exitCode: 0
+...
