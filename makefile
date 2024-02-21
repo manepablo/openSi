@@ -25,4 +25,11 @@ build-open_pdk:
 	#pulls the skywater pdk files and performs some transformations to make the accesable via ngspice
 	echo ${ROOT_DIR}
 	mkdir -p PDK
-	cd open_pdks && ./configure --prefix=${ROOT_DIR}/PDK --enable-sky130-pdk && sudo make DESTDIR=${ROOT_DIR}/PDK
+	cd open_pdks && ./configure --prefix=${ROOT_DIR}/pdk --enable-sky130-pdk --enable-magic --enable-openlane && sudo make DESTDIR=${ROOT_DIR}/pdk
+
+# to run ngspice a initialization file is needed in the home directory	
+init_skywater_pdk:
+	#todo replace it to make it general for allp pdks
+	cp ${ROOT_DIR}/simulation/siminitfiles/.spiceinit_syk130A ~/
+	mv ~/.spiceinit_syk130A ~/.spiceinit
+	
