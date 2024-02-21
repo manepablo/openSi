@@ -1,3 +1,4 @@
+ROOT_DIR:=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
 #build the kicad project
 build-kicad-essentials:
@@ -15,3 +16,13 @@ build-kicad:
 
 clean-all-build:
 	sudo rm -r ./kicad-build
+	
+build-ngspice42:
+	cd ngspice42 &&  ./compile_linux.sh
+build-ngspice-essentials:
+	sudo apt install build-essential flex bison libx11-6 libx11-dev libxaw7 libxaw7-dev fontconfig libxft-dev libxft2 libcairo2 libcairo2-dev libxmu6 libxext-dev libxext6 libxrender1 libxrender-dev libtool readline-common libreadline-dev gawk
+build-open_pdk:
+	#pulls the skywater pdk files and performs some transformations to make the accesable via ngspice
+	echo ${ROOT_DIR}
+	mkdir -p PDK
+	cd open_pdks && ./configure --prefix=${ROOT_DIR}/PDK --enable-sky130-pdk && sudo make DESTDIR=${ROOT_DIR}/PDK

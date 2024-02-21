@@ -1,7 +1,8 @@
 #ignore the following lines
 kicad-build
 kicad-source
-./vscode
-./kicad-build
+.vscode
+kicad-build
+PDK
 
 
