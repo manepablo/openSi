@@ -1,6 +1,7 @@
 #ignore the following lines
 kicad-master.zip
-kicad-master
+kicad-build
+kicad-source
 ./vscode
 ./kicad-build
 
