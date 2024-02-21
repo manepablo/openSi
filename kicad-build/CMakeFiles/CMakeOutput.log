@@ -1,0 +1,1328 @@
+The system is: Linux - 6.5.0-18-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h8cQQu
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85231/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h8cQQu'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_85231.dir/build.make CMakeFiles/cmTC_85231.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h8cQQu'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_85231.dir/flags.make' has modification time 1.6 s in the future
+Building C object CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85231.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_85231.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccUcjZsS.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85231.dir/'
+ as -v --64 -o CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o /tmp/ccUcjZsS.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_85231
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85231.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o -o cmTC_85231 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_85231' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_85231.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccI5gbFA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_85231 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_85231' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_85231.'
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h8cQQu'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h8cQQu'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h8cQQu]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85231/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h8cQQu']
+  ignore line: [gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future]
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_85231.dir/build.make CMakeFiles/cmTC_85231.dir/build]
+  ignore line: [gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h8cQQu']
+  ignore line: [gmake[2]: Warning: File 'CMakeFiles/cmTC_85231.dir/flags.make' has modification time 1.6 s in the future]
+  ignore line: [Building C object CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85231.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_85231.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccUcjZsS.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85231.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o /tmp/ccUcjZsS.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_85231]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85231.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o -o cmTC_85231 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_85231' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_85231.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccI5gbFA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_85231 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccI5gbFA.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_85231] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_85231.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-PjVqjW
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6bf88/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-PjVqjW'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_6bf88.dir/build.make CMakeFiles/cmTC_6bf88.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-PjVqjW'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_6bf88.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6bf88.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6bf88.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccW3W1Yr.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6bf88.dir/'
+ as -v --64 -o CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccW3W1Yr.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_6bf88
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bf88.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6bf88 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6bf88' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6bf88.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvMOlbd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6bf88 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6bf88' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6bf88.'
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-PjVqjW'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-PjVqjW'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-PjVqjW]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6bf88/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-PjVqjW']
+  ignore line: [gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future]
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_6bf88.dir/build.make CMakeFiles/cmTC_6bf88.dir/build]
+  ignore line: [gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-PjVqjW']
+  ignore line: [gmake[2]: Warning: File 'CMakeFiles/cmTC_6bf88.dir/flags.make' has modification time 1.6 s in the future]
+  ignore line: [Building CXX object CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6bf88.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6bf88.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccW3W1Yr.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6bf88.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccW3W1Yr.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_6bf88]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bf88.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6bf88 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6bf88' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6bf88.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvMOlbd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6bf88 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccvMOlbd.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6bf88] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_6bf88.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-vAGy80
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_edc42/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-vAGy80'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_edc42.dir/build.make CMakeFiles/cmTC_edc42.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-vAGy80'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_edc42.dir/flags.make' has modification time 1,6 s in the future
+Building C object CMakeFiles/cmTC_edc42.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_edc42.dir/CheckIncludeFile.c.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-vAGy80/CheckIncludeFile.c
+Linking C executable cmTC_edc42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edc42.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_edc42.dir/CheckIncludeFile.c.o -o cmTC_edc42 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-vAGy80'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-vAGy80'
+
+
+
+Determining if the include file iso646.h exists passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-M3s6t8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a5eba/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-M3s6t8'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_a5eba.dir/build.make CMakeFiles/cmTC_a5eba.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-M3s6t8'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_a5eba.dir/flags.make' has modification time 1,6 s in the future
+Building C object CMakeFiles/cmTC_a5eba.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_a5eba.dir/CheckIncludeFile.c.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-M3s6t8/CheckIncludeFile.c
+Linking C executable cmTC_a5eba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5eba.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a5eba.dir/CheckIncludeFile.c.o -o cmTC_a5eba 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-M3s6t8'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-M3s6t8'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-CD3G4s
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d4c87/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-CD3G4s'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_d4c87.dir/build.make CMakeFiles/cmTC_d4c87.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-CD3G4s'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_d4c87.dir/flags.make' has modification time 1,6 s in the future
+Building C object CMakeFiles/cmTC_d4c87.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_d4c87.dir/CheckIncludeFile.c.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-CD3G4s/CheckIncludeFile.c
+Linking C executable cmTC_d4c87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4c87.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d4c87.dir/CheckIncludeFile.c.o -o cmTC_d4c87 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-CD3G4s'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-CD3G4s'
+
+
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-jrP4LS
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a1978/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-jrP4LS'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_a1978.dir/build.make CMakeFiles/cmTC_a1978.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-jrP4LS'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_a1978.dir/flags.make' has modification time 1,6 s in the future
+Building C object CMakeFiles/cmTC_a1978.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_a1978.dir/CheckSymbolExists.c.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-jrP4LS/CheckSymbolExists.c
+Linking C executable cmTC_a1978
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1978.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a1978.dir/CheckSymbolExists.c.o -o cmTC_a1978 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-jrP4LS'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-jrP4LS'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-opZu9G
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_491b6/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-opZu9G'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_491b6.dir/build.make CMakeFiles/cmTC_491b6.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-opZu9G'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_491b6.dir/flags.make' has modification time 1,6 s in the future
+Building C object CMakeFiles/cmTC_491b6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_491b6.dir/CheckSymbolExists.c.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-opZu9G/CheckSymbolExists.c
+Linking C executable cmTC_491b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_491b6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_491b6.dir/CheckSymbolExists.c.o -o cmTC_491b6 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-opZu9G'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-opZu9G'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-47OaKz
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6640/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-47OaKz'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_b6640.dir/build.make CMakeFiles/cmTC_b6640.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-47OaKz'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_b6640.dir/flags.make' has modification time 1,6 s in the future
+Building C object CMakeFiles/cmTC_b6640.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_b6640.dir/CheckSymbolExists.c.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-47OaKz/CheckSymbolExists.c
+Linking C executable cmTC_b6640
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6640.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b6640.dir/CheckSymbolExists.c.o -o cmTC_b6640 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-47OaKz'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-47OaKz'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the malloc exist passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-DEUTxN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a96b2/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-DEUTxN'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_a96b2.dir/build.make CMakeFiles/cmTC_a96b2.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-DEUTxN'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_a96b2.dir/flags.make' has modification time 1,6 s in the future
+Building C object CMakeFiles/cmTC_a96b2.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_a96b2.dir/CheckSymbolExists.c.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-DEUTxN/CheckSymbolExists.c
+Linking C executable cmTC_a96b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a96b2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a96b2.dir/CheckSymbolExists.c.o -o cmTC_a96b2 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-DEUTxN'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-DEUTxN'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc
+  return ((int*)(&malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-GKbc0q
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0f451/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-GKbc0q'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_0f451.dir/build.make CMakeFiles/cmTC_0f451.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-GKbc0q'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_0f451.dir/flags.make' has modification time 1,6 s in the future
+Building C object CMakeFiles/cmTC_0f451.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_0f451.dir/CheckIncludeFile.c.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-GKbc0q/CheckIncludeFile.c
+Linking C executable cmTC_0f451
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f451.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_0f451.dir/CheckIncludeFile.c.o -o cmTC_0f451 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-GKbc0q'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-GKbc0q'
+
+
+
+Determining if the include file cmath exists passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-YVZqD2
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0eccb/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-YVZqD2'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_0eccb.dir/build.make CMakeFiles/cmTC_0eccb.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-YVZqD2'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_0eccb.dir/flags.make' has modification time 1,6 s in the future
+Building CXX object CMakeFiles/cmTC_0eccb.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -std=c++17 -o CMakeFiles/cmTC_0eccb.dir/CheckIncludeFile.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-YVZqD2/CheckIncludeFile.cxx
+Linking CXX executable cmTC_0eccb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0eccb.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0eccb.dir/CheckIncludeFile.cxx.o -o cmTC_0eccb 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-YVZqD2'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-YVZqD2'
+
+
+
+Determining if the asinh exist passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-dZwElA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fc6dd/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-dZwElA'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_fc6dd.dir/build.make CMakeFiles/cmTC_fc6dd.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-dZwElA'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_fc6dd.dir/flags.make' has modification time 1,6 s in the future
+Building CXX object CMakeFiles/cmTC_fc6dd.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -std=c++17 -o CMakeFiles/cmTC_fc6dd.dir/CheckSymbolExists.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-dZwElA/CheckSymbolExists.cxx
+Linking CXX executable cmTC_fc6dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc6dd.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_fc6dd.dir/CheckSymbolExists.cxx.o -o cmTC_fc6dd 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-dZwElA'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-dZwElA'
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asinh
+  return ((int*)(&asinh))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the acosh exist passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-CMxCrJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c8fb0/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-CMxCrJ'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_c8fb0.dir/build.make CMakeFiles/cmTC_c8fb0.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-CMxCrJ'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_c8fb0.dir/flags.make' has modification time 1,6 s in the future
+Building CXX object CMakeFiles/cmTC_c8fb0.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -std=c++17 -o CMakeFiles/cmTC_c8fb0.dir/CheckSymbolExists.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-CMxCrJ/CheckSymbolExists.cxx
+Linking CXX executable cmTC_c8fb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8fb0.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_c8fb0.dir/CheckSymbolExists.cxx.o -o cmTC_c8fb0 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-CMxCrJ'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-CMxCrJ'
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef acosh
+  return ((int*)(&acosh))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atanh exist passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-6IXpB4
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a47a6/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-6IXpB4'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_a47a6.dir/build.make CMakeFiles/cmTC_a47a6.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-6IXpB4'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_a47a6.dir/flags.make' has modification time 1,6 s in the future
+Building CXX object CMakeFiles/cmTC_a47a6.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -std=c++17 -o CMakeFiles/cmTC_a47a6.dir/CheckSymbolExists.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-6IXpB4/CheckSymbolExists.cxx
+Linking CXX executable cmTC_a47a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a47a6.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_a47a6.dir/CheckSymbolExists.cxx.o -o cmTC_a47a6 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-6IXpB4'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-6IXpB4'
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atanh
+  return ((int*)(&atanh))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_CMATH_ISINF succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-2AunlX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_24a37/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-2AunlX'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_24a37.dir/build.make CMakeFiles/cmTC_24a37.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-2AunlX'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_24a37.dir/flags.make' has modification time 1,6 s in the future
+Building CXX object CMakeFiles/cmTC_24a37.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CMATH_ISINF  -fPIE -std=c++17 -o CMakeFiles/cmTC_24a37.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-2AunlX/src.cxx
+Linking CXX executable cmTC_24a37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24a37.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_24a37.dir/src.cxx.o -o cmTC_24a37 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-2AunlX'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-2AunlX'
+
+
+Source file was:
+#include <cmath>
+int main(int argc, char** argv)
+{
+  (void)argv;
+  std::isinf(1.0);  (void)argc;
+  return 0;
+}
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-r70Hnx
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7bbab/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-r70Hnx'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_7bbab.dir/build.make CMakeFiles/cmTC_7bbab.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-r70Hnx'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_7bbab.dir/flags.make' has modification time 1,6 s in the future
+Building C object CMakeFiles/cmTC_7bbab.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE -o CMakeFiles/cmTC_7bbab.dir/CheckFunctionExists.c.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-r70Hnx/CheckFunctionExists.c
+Linking C executable cmTC_7bbab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bbab.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_7bbab.dir/CheckFunctionExists.c.o -o cmTC_7bbab  -lrt 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-r70Hnx'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-r70Hnx'
+
+
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-qnWZWT
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7c8f/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-qnWZWT'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_f7c8f.dir/build.make CMakeFiles/cmTC_f7c8f.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-qnWZWT'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_f7c8f.dir/flags.make' has modification time 1,6 s in the future
+Building C object CMakeFiles/cmTC_f7c8f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_f7c8f.dir/CheckSymbolExists.c.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-qnWZWT/CheckSymbolExists.c
+Linking C executable cmTC_f7c8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7c8f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f7c8f.dir/CheckSymbolExists.c.o -o cmTC_f7c8f 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-qnWZWT'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-qnWZWT'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getc_unlocked exist passed with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-Sf2YE2
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7fdbd/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-Sf2YE2'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_7fdbd.dir/build.make CMakeFiles/cmTC_7fdbd.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-Sf2YE2'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_7fdbd.dir/flags.make' has modification time 1,6 s in the future
+Building C object CMakeFiles/cmTC_7fdbd.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_7fdbd.dir/CheckSymbolExists.c.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-Sf2YE2/CheckSymbolExists.c
+Linking C executable cmTC_7fdbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fdbd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7fdbd.dir/CheckSymbolExists.c.o -o cmTC_7fdbd 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-Sf2YE2'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-Sf2YE2'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getc_unlocked
+  return ((int*)(&getc_unlocked))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WSUGGEST_OVERRIDE succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-vmjiT1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_49962/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-vmjiT1'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_49962.dir/build.make CMakeFiles/cmTC_49962.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-vmjiT1'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_49962.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_49962.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WSUGGEST_OVERRIDE  -fPIE   -Wsuggest-override -std=c++17 -o CMakeFiles/cmTC_49962.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-vmjiT1/src.cxx
+Linking CXX executable cmTC_49962
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49962.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_49962.dir/src.cxx.o -o cmTC_49962 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-vmjiT1'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-vmjiT1'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WDUPLICATED_BRANCHES succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-oRtM0G
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8a3bd/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-oRtM0G'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_8a3bd.dir/build.make CMakeFiles/cmTC_8a3bd.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-oRtM0G'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_8a3bd.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_8a3bd.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WDUPLICATED_BRANCHES  -fPIE   -Wduplicated-branches -std=c++17 -o CMakeFiles/cmTC_8a3bd.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-oRtM0G/src.cxx
+Linking CXX executable cmTC_8a3bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a3bd.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_8a3bd.dir/src.cxx.o -o cmTC_8a3bd 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-oRtM0G'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-oRtM0G'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WDUPLICATED_COND succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-8yVNcF
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af684/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-8yVNcF'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_af684.dir/build.make CMakeFiles/cmTC_af684.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-8yVNcF'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_af684.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_af684.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WDUPLICATED_COND  -fPIE   -Wduplicated-cond -std=c++17 -o CMakeFiles/cmTC_af684.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-8yVNcF/src.cxx
+Linking CXX executable cmTC_af684
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af684.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_af684.dir/src.cxx.o -o cmTC_af684 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-8yVNcF'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-8yVNcF'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WVLA succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-MFDBKl
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a684/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-MFDBKl'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_6a684.dir/build.make CMakeFiles/cmTC_6a684.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-MFDBKl'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_6a684.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_6a684.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WVLA  -fPIE   -Wvla -std=c++17 -o CMakeFiles/cmTC_6a684.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-MFDBKl/src.cxx
+Linking CXX executable cmTC_6a684
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a684.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_6a684.dir/src.cxx.o -o cmTC_6a684 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-MFDBKl'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-MFDBKl'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WIMPLICIT_FALLTHROUGH succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-5DaX9D
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_28800/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-5DaX9D'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_28800.dir/build.make CMakeFiles/cmTC_28800.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-5DaX9D'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_28800.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_28800.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WIMPLICIT_FALLTHROUGH  -fPIE   -Wimplicit-fallthrough -std=c++17 -o CMakeFiles/cmTC_28800.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-5DaX9D/src.cxx
+Linking CXX executable cmTC_28800
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28800.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_28800.dir/src.cxx.o -o cmTC_28800 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-5DaX9D'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-5DaX9D'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WRETURN_TYPE succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-DrcYJ9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_512f9/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-DrcYJ9'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_512f9.dir/build.make CMakeFiles/cmTC_512f9.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-DrcYJ9'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_512f9.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_512f9.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WRETURN_TYPE  -fPIE   -Wreturn-type -std=c++17 -o CMakeFiles/cmTC_512f9.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-DrcYJ9/src.cxx
+Linking CXX executable cmTC_512f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_512f9.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_512f9.dir/src.cxx.o -o cmTC_512f9 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-DrcYJ9'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-DrcYJ9'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WSHADOW succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-QMkegK
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a8cb9/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-QMkegK'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_a8cb9.dir/build.make CMakeFiles/cmTC_a8cb9.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-QMkegK'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_a8cb9.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_a8cb9.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WSHADOW  -fPIE   -Wshadow -std=c++17 -o CMakeFiles/cmTC_a8cb9.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-QMkegK/src.cxx
+Linking CXX executable cmTC_a8cb9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8cb9.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_a8cb9.dir/src.cxx.o -o cmTC_a8cb9 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-QMkegK'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-QMkegK'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WSIGN succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-qb4kxo
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_826b9/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-qb4kxo'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_826b9.dir/build.make CMakeFiles/cmTC_826b9.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-qb4kxo'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_826b9.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_826b9.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WSIGN  -fPIE   -Wsign-compare -std=c++17 -o CMakeFiles/cmTC_826b9.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-qb4kxo/src.cxx
+Linking CXX executable cmTC_826b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_826b9.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_826b9.dir/src.cxx.o -o cmTC_826b9 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-qb4kxo'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-qb4kxo'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WMISSING_INIT succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-llJdjg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_110af/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-llJdjg'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_110af.dir/build.make CMakeFiles/cmTC_110af.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-llJdjg'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_110af.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_110af.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WMISSING_INIT  -fPIE   -Wmissing-field-initializers -std=c++17 -o CMakeFiles/cmTC_110af.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-llJdjg/src.cxx
+Linking CXX executable cmTC_110af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_110af.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_110af.dir/src.cxx.o -o cmTC_110af 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-llJdjg'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-llJdjg'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WEMPTY_BODY succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-GsEaPs
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_76b91/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-GsEaPs'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_76b91.dir/build.make CMakeFiles/cmTC_76b91.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-GsEaPs'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_76b91.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_76b91.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WEMPTY_BODY  -fPIE   -Wempty-body -std=c++17 -o CMakeFiles/cmTC_76b91.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-GsEaPs/src.cxx
+Linking CXX executable cmTC_76b91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76b91.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_76b91.dir/src.cxx.o -o cmTC_76b91 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-GsEaPs'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-GsEaPs'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WREORDER succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-3EjXEZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1914d/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-3EjXEZ'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_1914d.dir/build.make CMakeFiles/cmTC_1914d.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-3EjXEZ'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_1914d.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_1914d.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WREORDER  -fPIE   -Wreorder -std=c++17 -o CMakeFiles/cmTC_1914d.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-3EjXEZ/src.cxx
+Linking CXX executable cmTC_1914d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1914d.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_1914d.dir/src.cxx.o -o cmTC_1914d 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-3EjXEZ'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-3EjXEZ'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WMISMATCHED_TAGS succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-kVAeRN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a5717/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-kVAeRN'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_a5717.dir/build.make CMakeFiles/cmTC_a5717.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-kVAeRN'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_a5717.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_a5717.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WMISMATCHED_TAGS  -fPIE   -Wmismatched-tags -std=c++17 -o CMakeFiles/cmTC_a5717.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-kVAeRN/src.cxx
+Linking CXX executable cmTC_a5717
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5717.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_a5717.dir/src.cxx.o -o cmTC_a5717 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-kVAeRN'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-kVAeRN'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WPESSIMIZING_MOVE succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-d7pPzJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0bbf6/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-d7pPzJ'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_0bbf6.dir/build.make CMakeFiles/cmTC_0bbf6.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-d7pPzJ'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_0bbf6.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_0bbf6.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WPESSIMIZING_MOVE  -fPIE   -Wpessimizing-move -std=c++17 -o CMakeFiles/cmTC_0bbf6.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-d7pPzJ/src.cxx
+Linking CXX executable cmTC_0bbf6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bbf6.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0bbf6.dir/src.cxx.o -o cmTC_0bbf6 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-d7pPzJ'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-d7pPzJ'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WREDUNDANT_MOVE succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-5Lw7s2
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a5e9e/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-5Lw7s2'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_a5e9e.dir/build.make CMakeFiles/cmTC_a5e9e.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-5Lw7s2'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_a5e9e.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_a5e9e.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WREDUNDANT_MOVE  -fPIE   -Wredundant-move -std=c++17 -o CMakeFiles/cmTC_a5e9e.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-5Lw7s2/src.cxx
+Linking CXX executable cmTC_a5e9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5e9e.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_a5e9e.dir/src.cxx.o -o cmTC_a5e9e 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-5Lw7s2'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-5Lw7s2'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WUNUSED_CONST_VARIABLE succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h3KKVF
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a8e0b/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h3KKVF'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_a8e0b.dir/build.make CMakeFiles/cmTC_a8e0b.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h3KKVF'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_a8e0b.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_a8e0b.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WUNUSED_CONST_VARIABLE  -fPIE   -Wunused-const-variable -std=c++17 -o CMakeFiles/cmTC_a8e0b.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h3KKVF/src.cxx
+Linking CXX executable cmTC_a8e0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8e0b.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_a8e0b.dir/src.cxx.o -o cmTC_a8e0b 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h3KKVF'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-h3KKVF'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WPSABI succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-u87kii
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e7765/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-u87kii'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_e7765.dir/build.make CMakeFiles/cmTC_e7765.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-u87kii'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_e7765.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_e7765.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WPSABI  -Wno-attributes  -fPIE   -Wpsabi -std=c++17 -o CMakeFiles/cmTC_e7765.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-u87kii/src.cxx
+Linking CXX executable cmTC_e7765
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7765.dir/link.txt --verbose=1
+/usr/bin/c++  -Wno-attributes  CMakeFiles/cmTC_e7765.dir/src.cxx.o -o cmTC_e7765 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-u87kii'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-u87kii'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-YtYwK3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aedd7/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-YtYwK3'
+gmake[1]: Warning: File 'Makefile' has modification time 1,6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_aedd7.dir/build.make CMakeFiles/cmTC_aedd7.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-YtYwK3'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_aedd7.dir/flags.make' has modification time 1,6 s in the future
+Building C object CMakeFiles/cmTC_aedd7.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_aedd7.dir/src.c.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-YtYwK3/src.c
+Linking C executable cmTC_aedd7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aedd7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_aedd7.dir/src.c.o -o cmTC_aedd7 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-YtYwK3'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-YtYwK3'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAS_FLTO succeeded with the following output:
+Change Dir: /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-oX5aXb
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a9075/fast && gmake[1]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-oX5aXb'
+gmake[1]: Warning: File 'Makefile' has modification time 1.6 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_a9075.dir/build.make CMakeFiles/cmTC_a9075.dir/build
+gmake[2]: Entering directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-oX5aXb'
+gmake[2]: Warning: File 'CMakeFiles/cmTC_a9075.dir/flags.make' has modification time 1.6 s in the future
+Building CXX object CMakeFiles/cmTC_a9075.dir/src.cxx.o
+/usr/bin/c++ -DHAS_FLTO  -Wno-attributes  -fPIE   -flto -fno-fat-lto-objects -std=c++17 -o CMakeFiles/cmTC_a9075.dir/src.cxx.o -c /home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-oX5aXb/src.cxx
+Linking CXX executable cmTC_a9075
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9075.dir/link.txt --verbose=1
+/usr/bin/c++  -Wno-attributes  CMakeFiles/cmTC_a9075.dir/src.cxx.o -o cmTC_a9075  -flto 
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-oX5aXb'
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/home/vboxuser/Desktop/openSi/kicad-build/CMakeFiles/CMakeScratch/TryCompile-oX5aXb'
+
+
+Source file was:
+int main() { return 0; }
+

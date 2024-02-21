@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkiplatform.a CMakeFiles/kiplatform.dir/gtk/app.cpp.o CMakeFiles/kiplatform.dir/gtk/drivers.cpp.o CMakeFiles/kiplatform.dir/gtk/environment.cpp.o CMakeFiles/kiplatform.dir/gtk/io.cpp.o CMakeFiles/kiplatform.dir/gtk/policy.cpp.o CMakeFiles/kiplatform.dir/gtk/secrets.cpp.o CMakeFiles/kiplatform.dir/gtk/ui.cpp.o
+/usr/bin/ranlib libkiplatform.a
